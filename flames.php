@@ -124,10 +124,27 @@
 
 </head>
 
+
+
+
+
+
+
+
 <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><br>
-    <!-- Save for Web Slices (FLAMES.jpg) -->
-    <div class="container">
+
+
+
+                    
         <div class="content">
+
+            
+
+        <a href="#"> <font color="White" size="4"><B><i class="fa fa-fw fa-user"></i> <span
+                                class="nav-profile-name"><?php echo $_SESSION['user'];?> </span></B></font></a>
+
+
+
             <a href="http://202.137.126.59/fms/login1.php" id="memo" class="btn btn-secondary btn-lg px-5 rounded-pill ">
               MEMO</a>
 
