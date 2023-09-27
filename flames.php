@@ -141,7 +141,7 @@
             
 
         <a href="#"> <font color="White" size="4"><B><i class="fa fa-fw fa-user"></i> <span
-                                class="nav-profile-name"><?php echo $_SESSION['user'];?> </span></B></font></a>
+                                class="nav-profile-name"><?php echo $_SESSION['username'];?> </span></B></font></a>
 
 
 
