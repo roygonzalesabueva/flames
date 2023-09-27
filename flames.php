@@ -140,10 +140,6 @@
 
             
 
-        <a href="#"> <font color="White" size="4"><B><i class="fa fa-fw fa-user"></i> <span
-                                class="nav-profile-name"><?php echo $_SESSION['username'];?> </span></B></font></a>
-
-
 
             <a href="http://202.137.126.59/fms/login1.php" id="memo" class="btn btn-secondary btn-lg px-5 rounded-pill ">
               MEMO</a>
