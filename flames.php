@@ -170,7 +170,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-     <center> <img src="http://localhost/flames/about1.png" alt=""></center>
+     <center> <img src="http://202.137.126.59/flames/about1.png" alt=""></center>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
