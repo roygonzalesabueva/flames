@@ -124,15 +124,30 @@
 
 </head>
 
+
+
+
+
+
+
+
 <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><br>
 
 
 
+<<<<<<< HEAD
 
 
     <!-- Save for Web Slices (FLAMES.jpg) -->
     <div class="container">
+=======
+                    
+>>>>>>> 181e6d1e7cc68269233347169d5d394a5c22eb5e
         <div class="content">
+
+            
+
+
             <a href="http://202.137.126.59/fms/login1.php" id="memo" class="btn btn-secondary btn-lg px-5 rounded-pill ">
               MEMO</a>
 
