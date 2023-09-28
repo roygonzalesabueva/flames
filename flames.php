@@ -75,7 +75,7 @@
         #main {
             position: absolute;
             top: 5%;
-            left: 10%;
+            left: 5%;
             transform: translate(-50%, -50%);
             background-color: #f9f9fb;
             color: rgb(2, 17, 2);
@@ -87,6 +87,33 @@
             transition: all 0.5s;
             cursor: pointer;
         }
+
+
+
+
+        #about {
+            position: absolute;
+            top: 5%;
+            left: 95%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9fb;
+            color: rgb(2, 17, 2);
+            font-size: 16px;
+            padding: 6px 10px;
+            border: none;
+            font-weight: 1000;
+            border-color: #0e0101;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+
+
+
+
+
+
+
+
 
 
         #delsur {
@@ -119,6 +146,11 @@
         }
 
 
+        #about:hover {
+            background: rgb(34, 240, 158);
+        }
+
+
     </style>
 
 
@@ -135,14 +167,10 @@
 
 
 
-<<<<<<< HEAD
 
 
     <!-- Save for Web Slices (FLAMES.jpg) -->
     <div class="container">
-=======
-                    
->>>>>>> 181e6d1e7cc68269233347169d5d394a5c22eb5e
         <div class="content">
 
             
@@ -152,7 +180,11 @@
               MEMO</a>
 
               <a href="http://202.137.126.58" id="main" class="btn btn-secondary btn-lg px-3 rounded-pill ">
-                Back to main page...</a>
+                HOME</a>
+
+                <a href="http://202.137.126.59/flames/flames.php" id="about" class="btn btn-secondary btn-lg px-3 rounded-pill ">
+                ABOUT</a>
+
 
 
             <a href="http://202.137.126.59/transfer/login.php" id="delsur" class="btn btn-primary btn-lg px-5 rounded-pill ">
