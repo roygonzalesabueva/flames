@@ -161,7 +161,21 @@ exit();
         }
 
 
-
+        #role {
+            position: absolute;
+            top: 5%;
+            left: 85%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9fb;
+            color: rgb(2, 17, 2);
+            font-size: 16px;
+            padding: 6px 10px;
+            border: none;
+            font-weight: 1000;
+            border-color: #0e0101;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
 
 
 
@@ -207,6 +221,11 @@ exit();
         }
 
         #user:hover {
+            background: rgb(34, 240, 158);
+        }
+
+
+        #role:hover {
             background: rgb(34, 240, 158);
         }
 
@@ -284,6 +303,14 @@ exit();
                         echo  $user;
                 ?>
                 </button>
+
+
+                <button type="button" class="btn btn-primary"   id="role" >
+                <?php
+                        echo  $role;
+                ?>
+                </button>
+
 
 
                
