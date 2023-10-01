@@ -16,7 +16,7 @@ exit();
     $_SESSION['user_role'] = $role;
     $_SESSION['security_key'] = $key;
 
-    echo $_SESSION['username'];
+    
     //header("Location: admin/index.php");
 
 }
