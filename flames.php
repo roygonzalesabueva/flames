@@ -16,7 +16,7 @@ exit();
     $_SESSION['user_role'] = $role;
     $_SESSION['security_key'] = $key;
 
-echo  $user;
+
     //header("Location: admin/index.php");
 
 }
@@ -252,6 +252,10 @@ echo  $user;
 
                 <!-- <a href="http://localhost/flames/about.png" target="_blank" id="about" class="btn btn-secondary btn-lg px-3 rounded-pill ">
                 ABOUT</a> -->
+
+                <?php
+                        echo  $user;
+                ?>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" id="about" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 About
