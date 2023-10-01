@@ -144,6 +144,27 @@ exit();
 
 
 
+        #user {
+            position: absolute;
+            top: 5%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9fb;
+            color: rgb(2, 17, 2);
+            font-size: 16px;
+            padding: 6px 10px;
+            border: none;
+            font-weight: 1000;
+            border-color: #0e0101;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+
+
+
+
+
+
 
 
 
@@ -184,6 +205,11 @@ exit();
         #about:hover {
             background: rgb(34, 240, 158);
         }
+
+        #user:hover {
+            background: rgb(34, 240, 158);
+        }
+
 
 
     </style>
@@ -253,7 +279,7 @@ exit();
                 <!-- <a href="http://localhost/flames/about.png" target="_blank" id="about" class="btn btn-secondary btn-lg px-3 rounded-pill ">
                 ABOUT</a> -->
 
-                <button type="button" class="btn btn-primary" id="about" >
+                <button type="button" class="btn btn-primary" id="user" >
                 <?php
                         echo  $user;
                 ?>
