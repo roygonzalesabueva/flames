@@ -253,9 +253,14 @@ exit();
                 <!-- <a href="http://localhost/flames/about.png" target="_blank" id="about" class="btn btn-secondary btn-lg px-3 rounded-pill ">
                 ABOUT</a> -->
 
+                <button type="button" class="btn btn-primary" id="about" >
                 <?php
                         echo  $user;
                 ?>
+                </button>
+
+
+               
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" id="about" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 About
