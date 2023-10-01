@@ -1,3 +1,32 @@
+<?php
+session_start();
+$userID = $_POST['current_user_id'];
+$user = $_POST['current_username']; 
+$role = $_POST['current_user_role'];
+$key = $_POST['security_key'];
+    
+if (empty($userID)) {
+    echo "<p>String is Empty</p>";
+    header("Location: http://202.137.126.58/");
+exit();
+} else {
+   
+    $_SESSION['user_id'] = $userID;
+    $_SESSION['username'] = $user;
+    $_SESSION['user_role'] = $role;
+    $_SESSION['security_key'] = $key;
+   echo $userID;
+    //header("Location: admin/index.php");
+
+}
+
+
+
+
+?>
+
+
+
 
 <html>
 
