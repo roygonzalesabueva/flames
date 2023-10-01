@@ -279,7 +279,7 @@ exit();
                 <!-- <a href="http://localhost/flames/about.png" target="_blank" id="about" class="btn btn-secondary btn-lg px-3 rounded-pill ">
                 ABOUT</a> -->
 
-                <button type="button" class="btn btn-primary" id="user" >
+                <button type="button" class="btn btn-primary"  id="user" > <i class="fa fa-fw fa-user"></i>
                 <?php
                         echo  $user;
                 ?>
