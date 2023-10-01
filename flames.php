@@ -164,7 +164,7 @@ exit();
         #role {
             position: absolute;
             top: 5%;
-            left: 85%;
+            left: 89%;
             transform: translate(-50%, -50%);
             background-color: #f9f9fb;
             color: rgb(2, 17, 2);
