@@ -147,7 +147,7 @@ exit();
         #user {
             position: absolute;
             top: 5%;
-            left: 70%;
+            left: 65%;
             transform: translate(-50%, -50%);
             background-color: #f9f9fb;
             color: rgb(2, 17, 2);
@@ -164,7 +164,7 @@ exit();
         #role {
             position: absolute;
             top: 5%;
-            left: 89%;
+            left: 85%;
             transform: translate(-50%, -50%);
             background-color: #f9f9fb;
             color: rgb(2, 17, 2);
