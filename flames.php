@@ -290,7 +290,7 @@ exit();
 
 
             <a href="http://202.137.126.59/fms/login1.php" id="memo" class="btn btn-secondary btn-lg px-5 rounded-pill ">
-              MEMO</a>
+              M.E.M.O.</a>
 
               <a href="http://202.137.126.58" id="main" class="btn btn-secondary btn-lg px-3 rounded-pill ">
                 HOME</a>
@@ -322,7 +322,7 @@ exit();
 
 
             <a href="http://202.137.126.59/transfer/login.php" id="delsur" class="btn btn-primary btn-lg px-5 rounded-pill ">
-                DELSUR</a>
+                Del.S.U.R.</a>
         </div>
     </div>
     <center>
