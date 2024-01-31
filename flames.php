@@ -218,7 +218,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        <center> <img src="http://202.137.126.59/flames/about1.png" alt=""></center>
+        <center> <img src="http://subsystems.projectdavaosur.com/flames/about1.png" alt=""></center>
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -235,7 +235,7 @@
             <a href="http://subsystems.projectdavaosur.com/fms/login1.php" id="memo" class="btn btn-secondary btn-lg px-5 rounded-pill ">
               M.E.M.O.</a>
 
-              <a href="http://subsystems.projectdavaosur.com" id="main" class="btn btn-secondary btn-lg px-3 rounded-pill ">
+              <a href="http://projectdavaosur.com" id="main" class="btn btn-secondary btn-lg px-3 rounded-pill ">
                 HOME</a>
 
             <!-- <a href="http://localhost/flames/about.png" target="_blank" id="about" class="btn btn-secondary btn-lg px-3 rounded-pill ">
