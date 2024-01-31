@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
     session_start();
     //database connection
 
@@ -11,7 +10,7 @@
     
     if (empty($userID)) {
         echo "<p>String is Empty</p>";
-        header("Location: http://202.137.126.58/");
+        header("Location: http://subsystems.projectdavaosur.com/");
         exit();
     } else {
     
@@ -22,28 +21,6 @@
         //header("Location: admin/index.php");
 
     }
-=======
-session_start();
-$userID = $_POST['current_user_id'];
-$user = $_POST['current_username'];
-$role = $_POST['current_user_role'];
-$key = $_POST['security_key'];
-
-if (empty($userID)) {
-    echo "<p>String is Empty</p>";
-    header("Location: http://202.137.126.58/");
-    exit();
-} else {
-
-    $_SESSION['user_id'] = $userID;
-    $_SESSION['username'] = $user;
-    $_SESSION['user_role'] = $role;
-    $_SESSION['security_key'] = $key;
-
-    //header("Location: admin/index.php");
-}
-
->>>>>>> 95c333697dd880d07b48c698514e4f38631985c4
 ?>
 
 <html>
@@ -59,16 +36,8 @@ if (empty($userID)) {
     <title>FLAMES</title>
     <link rel="icon" href="modal\css1\images\favicon.ico" type="image" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<<<<<<< HEAD
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-=======
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
->>>>>>> 95c333697dd880d07b48c698514e4f38631985c4
 
     <style>
     body {
@@ -240,7 +209,6 @@ if (empty($userID)) {
 
 </head>
 
-<<<<<<< HEAD
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -268,49 +236,11 @@ if (empty($userID)) {
               M.E.M.O.</a>
 
               <a href="http://subsystems.projectdavaosur.com" id="main" class="btn btn-secondary btn-lg px-3 rounded-pill ">
-=======
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <center> <img src="http://202.137.126.59/flames/about1.png" alt=""></center>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><br>
-    <!-- Save for Web Slices (FLAMES.jpg) -->
-    <div class="container">
-        <div class="content">
-
-
-            <a href="http://202.137.126.59/fms/login1.php" id="memo"
-                class="btn btn-secondary btn-lg px-5 rounded-pill ">
-                M.E.M.O.</a>
-
-            <a href="http://202.137.126.58" id="main" class="btn btn-secondary btn-lg px-3 rounded-pill ">
->>>>>>> 95c333697dd880d07b48c698514e4f38631985c4
                 HOME</a>
 
             <!-- <a href="http://localhost/flames/about.png" target="_blank" id="about" class="btn btn-secondary btn-lg px-3 rounded-pill ">
                 ABOUT</a> -->
 
-<<<<<<< HEAD
                 <button type="button" class="btn btn-primary"   id="user" >
                     <?= $user; ?>
                 </button>
@@ -322,37 +252,10 @@ if (empty($userID)) {
                
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" id="about" data-bs-toggle="modal" data-bs-target="#exampleModal">
-=======
-            <button type="button" class="btn btn-primary" id="user">
-                <?php
-                echo  $user;
-                ?>
-            </button>
-
-            <button type="button" class="btn btn-primary" id="role">
-                <?php
-                echo  $role;
-                ?>
-            </button>
-
-
-
-
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" id="about" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">
->>>>>>> 95c333697dd880d07b48c698514e4f38631985c4
                 About
             </button>
 
-<<<<<<< HEAD
             <a href="http://subsystems.projectdavaosur.com/transfer/login.php" id="delsur" class="btn btn-primary btn-lg px-5 rounded-pill ">
-=======
-
-
-            <a href="http://202.137.126.59/transfer/login.php" id="delsur"
-                class="btn btn-primary btn-lg px-5 rounded-pill ">
->>>>>>> 95c333697dd880d07b48c698514e4f38631985c4
                 Del.S.U.R.</a>
         </div>
     </div>
@@ -365,12 +268,3 @@ if (empty($userID)) {
 </body>
 
 </html>
-<<<<<<< HEAD
-=======
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
-</script>
->>>>>>> 95c333697dd880d07b48c698514e4f38631985c4
